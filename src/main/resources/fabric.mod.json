@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "craftables",
   "version": "${version}",
 
   "name": "Example Mod",
@@ -14,16 +14,20 @@
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/craftables/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "com.diamondmonster09.craftables.CraftablesMod"
+    ],
+    "client": [
+      "com.diamondmonster09.craftables.CraftablesClient"
     ]
+
   },
   "mixins": [
-    "modid.mixins.json"
+    "craftables.mixins.json"
   ],
 
   "depends": {
