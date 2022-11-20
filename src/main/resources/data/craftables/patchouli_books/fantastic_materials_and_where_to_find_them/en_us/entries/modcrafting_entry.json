@@ -1,0 +1,11 @@
+{
+    "name": "Mod Crafting Table",
+    "icon": "minecraft:crafting_table",
+    "category": "craftables:materials_category",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "This is a test entry, but it should show up!"
+        }
+    ]
+}
